@@ -1,0 +1,15 @@
+{{page-title "Scientist"}}
+
+<!--
+<h2> List of Scientist</h2>
+<ul>
+  {{#each @model as |scientist|}}  {{Denotamos la variable que recorreremos será denotada como " |scientist| " que será renderizada}}
+    <li>{{scientist}}</li>
+  {{/each}}
+</ul>
+-->
+<PeopleList
+  @title="List of Scientists"
+  @people={{@model}}
+/>
+{{outlet}}
